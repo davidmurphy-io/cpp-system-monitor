@@ -195,6 +195,6 @@ string LinuxParser::User(int UID) {
   }
 
 // TODO: Read and return the uptime of a process
-long LinuxParser::UpTime(int pid) {
+long LinuxParser::UpTime(int pid[[maybe_unused]]) {
   return 0;
 }
